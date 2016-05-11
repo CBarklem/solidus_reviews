@@ -1,19 +1,19 @@
 lib = File.expand_path('../lib/', __FILE__)
 $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
-require 'spree_reviews/version'
+require 'solidus_reviews/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_reviews'
-  s.version     = SpreeReviews.version
-  s.summary     = 'Basic review and ratings facility for Spree'
+  s.name        = 'solidus_reviews'
+  s.version     = SolidusReviews.version
+  s.summary     = 'Reviews of solidus products'
   s.description = s.summary
   s.required_ruby_version = '>= 2.1.0'
 
-  s.authors 	   = ['Paul Callaghan']
-  s.email        = 'paulcc.two@gmail.com'
-  s.homepage     = 'https://github.com/spree-contrib/spree-reviews/'
+  s.authors 	   = ['Christopher Barklem']
+  s.email        = 'cbarklem@gmail.com'
+  s.homepage     = 'https://github.com/CBarklem/solidus_reviews/'
   s.license      = 'BSD-3'
 
   s.files        = `git ls-files`.split("\n")
